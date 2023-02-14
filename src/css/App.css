@@ -1,0 +1,295 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.title {
+  position: absolute;
+  top: 5%;
+}
+
+.phone-border { 
+  position: absolute;
+  background-color: rgb(227, 227, 227);
+  height: 554.88px;
+  width: 270.71px;
+  border-radius: 20px;
+  z-index: 2;
+}
+
+.phone-notch {
+  position: absolute;
+  z-index: 1;
+  top: 1%;
+  left: 36%;
+  background-color: rgb(42, 42, 42);
+  width: 70px;
+  height: 15px;
+  border-radius: 100px;
+}
+
+.zmodo-header {
+  background-color: white;
+  position: sticky;
+  width: 270.71px;
+  height: 50px;
+  margin: 0;
+  padding-top: 5px;
+
+  /* Border Radius */
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.zmodo-add-button { 
+  position: absolute;
+  color: #4a4a4a;
+}
+
+.zmodo-promo-img { 
+  position: absolute;
+  width: 270.71px;
+  display: block;
+  z-index: 1;
+}
+
+.zmodo-content {
+  position: absolute;
+  top: 32%;
+  z-index: 2;
+  background-color: rgb(227, 227, 227);
+  width: 270.71px;
+  height: 330px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.zmodo-notifications-text {
+  color: black;
+  position: absolute;
+  left: 4%;
+  top: 6%;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.zmodo-notifications-settings { 
+  position: absolute;
+  top: 7%;
+  left: 84%;
+  color: rgb(106, 106, 106);
+  font-size: 9px;
+  border: 1px solid darkgray;
+  border-radius: 20px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.zmodo-notifications-on {
+  position: absolute;
+  line-height: 35px;
+  left: 5%;
+  font-size: 15px;
+  top: 15%;
+  width: 35px;
+  height: 35px;
+  color: rgb(106, 106, 106);
+  background-color: white;
+  border-radius: 100px;
+}
+
+.zmodo-notifications-off {
+  position: absolute;
+  line-height: 35px;
+  left: 30%;
+  font-size: 15px;
+  top: 15%;
+  width: 35px;
+  height: 35px;
+  color: white;
+  background-color: rgb(42, 156, 238);
+  border-radius: 100px;
+}
+
+.zmodo-notifications-on-text {
+  position: absolute;
+  left: 28%;
+  top: 90%;
+  color: rgba(0, 0, 0, 0.679);
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.zmodo-notifications-off-text {
+  position: absolute;
+  left: 23%;
+  top: 90%;
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.679);
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.zmodo-devices { 
+  color: black;
+  position: absolute;
+  left: 4%;
+  top: 35%;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.zmodo-device-settings { 
+  position: absolute;
+  top: 37%;
+  left: 84%;
+  color: rgb(106, 106, 106);
+  font-size: 9px;
+  border: 1px solid darkgray;
+  border-radius: 20px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.zmodo-device-card { 
+  position: absolute;
+  top: 44%;
+  background-color: white;
+  width: 250px;
+  height: 60px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.zmodo-device-card2 {
+  position: absolute;
+  top: 65%;
+  background-color: white;
+  width: 250px;
+  height: 60px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.zmodo-footer {
+  position: absolute;
+  top: 91%;
+  z-index: 1;
+  background-color: white;
+  width: 270.71px;
+  height: 50px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.zmodo-device-img {
+  position: absolute;
+  left: 1%;
+  top: 15%;
+  width: 60px;
+}
+
+.zmodo-device-text {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  left: 30%;
+  top: 15%;
+  text-align: left;
+}
+
+.zmodo-device-alerts {
+  font-size: 10px;
+  color: gray;
+  font-weight: 500;
+}
+
+.zmodo-device-live {
+  font-size: 22px;
+  color: rgb(74, 74, 74);
+  position: absolute;
+  top: 15%;
+  left: 65%;
+}
+
+.zmodo-device-live-text {
+  position: absolute;
+  font-size: 10px;
+  top: 80%;
+  left: 10%;
+}
+
+.zmodo-device-playback {
+  font-size: 22px;
+  color: rgb(74, 74, 74);
+  position: absolute;
+  top: 15%;
+  left: 85%;
+}
+
+.zmodo-device-playback-text {
+  position: absolute;
+  font-size: 10px;
+  top: 80%;
+  right: -40%;
+}
+
+.zmodo-footer-home {
+  position: absolute;
+  left: 10%;
+  top: 12%;
+  color: rgb(42, 156, 238);
+}
+
+.zmodo-footer-text-home {
+  position: absolute;
+  left: 0%;
+  top: 70%;
+  font-size: 10px;
+}
+
+.zmodo-footer-events {
+  position: absolute;
+  left: 27%;
+  top: 12%;
+  color: #4a4a4a;
+}
+
+.zmodo-footer-icon-text { 
+  position: absolute;
+  left: 0%;
+  top: 70%;
+  font-size: 10px;
+}
+
+.zmodo-footer-cloud {
+  position: absolute;
+  left: 46%;
+  top: 12%;
+  color: #4a4a4a;
+}
+
+.zmodo-footer-store {
+  position: absolute;
+  left: 64%;
+  top: 12%;
+  color: #4a4a4a;
+}
+
+.zmodo-footer-me {
+  position: absolute;
+  left: 81%;
+  top: 12%;
+  color: #4a4a4a;
+}
